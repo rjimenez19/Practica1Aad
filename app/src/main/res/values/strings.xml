@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Practica1Pmdm</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dial_atras">Cerrar</string>
+    <string name="nombre">Nombre:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="telefono2">Telefono 2:</string>
+    <string name="añadir">Añadir</string>
+    <string name="aceptar">Añadir</string>
+    <string name="editar">Actualizar</string>
+    <string name="copia">Abrir copia de seguridad</string>
+    <string name="sincro">Sincronizar</string>
+    <string name="lista">Lista de contactos</string>
+    <string name="copia2">Copia de seguridad</string>
+    <string name="guardar">Guardar:</string>
+    <string name="ultimoSinc">Ultima sincronizacion</string>
+</resources>

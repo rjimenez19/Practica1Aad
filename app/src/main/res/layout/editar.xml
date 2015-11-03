@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/edNombre"
+        android:text="@string/nombre"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/edTelefono"
+        android:layout_alignStart="@+id/edTelefono"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/telefono"
+        android:id="@+id/edTelefono"
+        android:layout_below="@+id/ededit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="91dp"
+        android:layout_marginStart="91dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@android:drawable/ic_menu_report_image"
+        android:layout_toLeftOf="@+id/ededit2"
+        android:layout_alignTop="@+id/edNombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/ededit3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ededit"
+        android:layout_below="@+id/edNombre"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignLeft="@+id/edNombre"
+        android:layout_alignStart="@+id/edNombre" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ededit2"
+        android:layout_below="@+id/edTelefono"
+        android:layout_alignLeft="@+id/edTelefono"
+        android:layout_alignStart="@+id/edTelefono"
+        android:layout_alignRight="@+id/ededit"
+        android:layout_alignEnd="@+id/ededit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/telefono2"
+        android:id="@+id/edTelefono2"
+        android:layout_below="@+id/ededit2"
+        android:layout_alignLeft="@+id/ededit2"
+        android:layout_alignStart="@+id/ededit2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ededit3"
+        android:layout_below="@+id/edTelefono2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_alignRight="@+id/ededit2"
+        android:layout_alignEnd="@+id/ededit2" />
+</RelativeLayout>
